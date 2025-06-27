@@ -28,5 +28,6 @@ st.subheader("🏆 Top 3 Plates by Entries")
 for i, (plate, count) in enumerate(top_3, 1):
     st.write(f"{i}. 🪪 {plate} — {count} entries")
 
+st.subheader("📜 All Plates")
 for plate in plates:
     st.write(f"🪪 {plate['texto_matricula']} — ⏱ {plate['timestamp']}")
