@@ -20,4 +20,4 @@ response = table.scan()
 plates = sorted(response["Items"], key=lambda x: x["timestamp"], reverse=True)
 
 for plate in plates:
-    st.write(f"🪪 {plate['plate']} — ⏱ {plate['timestamp']}")
+    st.write(f"🪪 {plate['texto_matricula']} — ⏱ {plate['timestamp']}")
